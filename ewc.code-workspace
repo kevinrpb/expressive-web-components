@@ -3,6 +3,10 @@
 		{
 			"name": "ewc",
 			"path": "."
+		},
+		{
+			"name": "slide-show",
+			"path": "packages/slide-show/"
 		}
 	]
 }

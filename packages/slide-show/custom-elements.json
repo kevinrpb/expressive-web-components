@@ -1,0 +1,46 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "slide-show",
+      "path": "./slide-show.js",
+      "attributes": [
+        {
+          "name": "active",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "interval",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "images",
+          "type": "array",
+          "default": "[]"
+        }
+      ],
+      "properties": [
+        {
+          "name": "activeIndex",
+          "attribute": "active",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "intervalTime",
+          "attribute": "interval",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "images",
+          "attribute": "images",
+          "type": "array",
+          "default": "[]"
+        }
+      ]
+    }
+  ]
+}

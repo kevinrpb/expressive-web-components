@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+}
+
+@media screen and (min-width: 900px) {
+  main {
+    width: 80%
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    width: 60%
+  }
+}
+
+slide-show {
+  height: 300px;
+}
+
+slide-show > img {
+  display: none;
+}
