@@ -1,5 +1,5 @@
 {
-  "name": "@kevinrpb/slide-show",
+  "name": "@expressive-wc/slide-show",
   "version": "0.0.1",
   "description": "WebComponent slide-show following open-wc recommendations",
   "author": "Kevin Romero Peces-Barba <hello@kevinrpb.me> (https://kevinrpb.me)",
@@ -51,6 +51,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "d5310f464ab4ae5290f853eb00acb8634402eba3"
+  }
 }
