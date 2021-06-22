@@ -1,6 +1,6 @@
 {
   "name": "@expressive-wc/slide-show",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WebComponent slide-show following open-wc recommendations",
   "author": "Kevin Romero Peces-Barba <hello@kevinrpb.me> (https://kevinrpb.me)",
   "license": "MIT",
