@@ -7,6 +7,10 @@
 		{
 			"name": "slide-show",
 			"path": "packages/slide-show/"
+		},
+		{
+			"name": "storybook",
+			"path": "packages/storybook/"
 		}
 	]
 }

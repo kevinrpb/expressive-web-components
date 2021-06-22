@@ -13,7 +13,11 @@ npm i slide-show
   import 'slide-show/slide-show.js';
 </script>
 
-<slide-show></slide-show>
+<slide-show interval="3000">
+  <img src="..." index="0" alt="..." show-caption>
+  <img src="..." index="1" alt="...">
+  <img src="..." index="2" alt="...">
+</slide-show>
 ```
 
 ## Linting with ESLint, Prettier, and Types

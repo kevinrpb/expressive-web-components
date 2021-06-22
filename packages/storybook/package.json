@@ -1,0 +1,34 @@
+{
+  "name": "@expressive-wx/storybook",
+  "version": "1.0.0",
+  "description": "Storybook showcasing all Expressive Web Components",
+  "author": "Kevin Romero Peces-Barba <kevinrpb@hotmail.com>",
+  "homepage": "https://expressive-wc.kevinrpb.me",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrpb/expressive-web-components.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinrpb/expressive-web-components/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/web-components": "^6.1.21",
+    "babel-loader": "^8.2.2",
+    "lit-html": "^1.4.1"
+  },
+  "dependencies": {
+    "@expressive-wc/slide-show": "^0.0.2",
+    "lit-element": "^2.5.1"
+  }
+}
