@@ -213,7 +213,7 @@ export class SlideShow extends LitElement {
   }
 
   _setIndex(event) {
-    const index = event.target.getAttribute('index');
+    const index = event.currentTarget.getAttribute('index');
 
     this.activeIndex = index;
     this._startInterval();
