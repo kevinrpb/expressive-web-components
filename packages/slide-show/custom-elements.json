@@ -3,6 +3,90 @@
   "tags": [
     {
       "name": "slide-show",
+      "path": "./dist/slide-show_0.0.2.js",
+      "attributes": [
+        {
+          "name": "active",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "interval",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "images",
+          "type": "array",
+          "default": "[]"
+        }
+      ],
+      "properties": [
+        {
+          "name": "activeIndex",
+          "attribute": "active",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "intervalTime",
+          "attribute": "interval",
+          "type": "number",
+          "default": "-1"
+        },
+        {
+          "name": "images",
+          "attribute": "images",
+          "type": "array",
+          "default": "[]"
+        }
+      ]
+    },
+    {
+      "name": "slide-show",
+      "path": "./dist/slide-show_0.0.2.min.js",
+      "attributes": [
+        {
+          "name": "active",
+          "type": "number"
+        },
+        {
+          "name": "interval",
+          "type": "number"
+        },
+        {
+          "name": "images",
+          "type": "array"
+        }
+      ],
+      "properties": [
+        {
+          "name": "activeIndex",
+          "attribute": "active",
+          "type": "number"
+        },
+        {
+          "name": "intervalTime",
+          "attribute": "interval",
+          "type": "number"
+        },
+        {
+          "name": "images",
+          "attribute": "images",
+          "type": "array"
+        },
+        {
+          "name": "hasUpdated",
+          "type": "number"
+        },
+        {
+          "name": "updateComplete",
+          "type": "Promise<any> | undefined"
+        }
+      ]
+    },
+    {
+      "name": "slide-show",
       "path": "./slide-show.js",
       "attributes": [
         {

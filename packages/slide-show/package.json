@@ -1,12 +1,21 @@
 {
   "name": "@expressive-wc/slide-show",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "WebComponent slide-show following open-wc recommendations",
   "author": "Kevin Romero Peces-Barba <hello@kevinrpb.me> (https://kevinrpb.me)",
   "license": "MIT",
   "private": false,
   "main": "index.js",
   "module": "index.js",
+  "files": [
+    "index.js",
+    "slide-show.js",
+    "src/SlideShow.js",
+    "custom-elements.json",
+    "dist/*.js",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "start": "web-dev-server",
     "dev": "web-dev-server --hrm",
