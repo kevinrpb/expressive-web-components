@@ -34,6 +34,8 @@ export class SlideShow extends LitElement {
         width: 100%;
 
         object-fit: cover;
+
+        border-radius: var(--slide-show-img-border-radius);
       }
 
       :host figure figcaption {

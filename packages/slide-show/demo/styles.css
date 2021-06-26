@@ -29,6 +29,8 @@ slide-show {
   --slide-show-select-button-bg: #777777;
   --slide-show-active-button-bg: #DDDDDD;
 
+  --slide-show-img-border-radius: 0.25rem;
+
   --slide-show-previous-icon: url(icon/arrow-left.svg);
   --slide-show-next-icon: url(icon/arrow-right.svg);
 }
