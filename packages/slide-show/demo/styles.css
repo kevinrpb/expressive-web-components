@@ -24,6 +24,13 @@ main {
 
 slide-show {
   height: 300px;
+
+  --slide-show-nav-button-bg: #AAAAAA;
+  --slide-show-select-button-bg: #777777;
+  --slide-show-active-button-bg: #DDDDDD;
+
+  --slide-show-previous-icon: url(icon/arrow-left.svg);
+  --slide-show-next-icon: url(icon/arrow-right.svg);
 }
 
 slide-show > img {
