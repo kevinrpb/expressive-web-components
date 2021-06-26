@@ -5,6 +5,7 @@
   "author": "Kevin Romero Peces-Barba <kevinrpb@hotmail.com>",
   "homepage": "https://expressive-wc.kevinrpb.me",
   "license": "MIT",
+  "private": false,
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -30,5 +31,6 @@
   "dependencies": {
     "@expressive-wc/slide-show": "^0.0.3",
     "lit-element": "^2.5.1"
-  }
+  },
+  "gitHead": "626701c537b63d7017e2195b48931f4962ece856"
 }
