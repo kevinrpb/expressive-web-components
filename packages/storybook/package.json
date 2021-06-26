@@ -1,5 +1,5 @@
 {
-  "name": "@expressive-wx/storybook",
+  "name": "@expressive-wc/storybook",
   "version": "1.0.2",
   "description": "Storybook showcasing all Expressive Web Components",
   "author": "Kevin Romero Peces-Barba <kevinrpb@hotmail.com>",
@@ -32,5 +32,5 @@
     "@expressive-wc/slide-show": "^0.0.4",
     "lit-element": "^2.5.1"
   },
-  "gitHead": "626701c537b63d7017e2195b48931f4962ece856"
+  "gitHead": "639c1bba9f71829c4ba7b41dc51015a01a7cf3e4"
 }
