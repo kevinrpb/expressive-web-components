@@ -1,6 +1,6 @@
 {
   "name": "@expressive-wx/storybook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Storybook showcasing all Expressive Web Components",
   "author": "Kevin Romero Peces-Barba <kevinrpb@hotmail.com>",
   "homepage": "https://expressive-wc.kevinrpb.me",
@@ -29,7 +29,7 @@
     "lit-html": "^1.4.1"
   },
   "dependencies": {
-    "@expressive-wc/slide-show": "^0.0.3",
+    "@expressive-wc/slide-show": "^0.0.4",
     "lit-element": "^2.5.1"
   },
   "gitHead": "626701c537b63d7017e2195b48931f4962ece856"
