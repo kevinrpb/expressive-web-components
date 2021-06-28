@@ -22,19 +22,19 @@ main {
   }
 }
 
-slide-show {
+slide-show#my-slide-show {
   height: 300px;
 
-  --slide-show-nav-button-bg: #AAAAAA;
   --slide-show-select-button-bg: #777777;
   --slide-show-active-button-bg: #DDDDDD;
 
   --slide-show-img-border-radius: 0.25rem;
 
+  --slide-show-nav-button-bg: #AAAAAA;
   --slide-show-previous-icon: url(icon/arrow-left.svg);
   --slide-show-next-icon: url(icon/arrow-right.svg);
 }
 
-slide-show > img {
+slide-show#my-slide-show > img {
   display: none;
 }
