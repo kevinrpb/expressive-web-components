@@ -26,13 +26,13 @@ import SlideShow from '@expressive-wc/slide-show/slide-show.js'
 #### unpkg
 
 ```html
-<script type="module" src="https://unpkg.com/@expressive-wc/slide-show@0.0.7/dist/slide-show_0.0.7.min.js" integrity="sha384-x7wnLEKARE0k4q1cttqoD8Uj6X2NVEB/1rT7d0UrY8MsyphbxngGS9Bs31F1Phwj" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/@expressive-wc/slide-show@0.1.1/dist/slide-show_0.1.1.min.js" integrity="sha384-9pCVyGQ9JLVs+H3jRo3RVHUEuQ5tMC2AV1ZOz6+UN2Swv71PlYD6+2VYor/uExOt" crossorigin="anonymous"></script>
 ```
 
 #### jsdelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@expressive-wc/slide-show@0.0.7/dist/slide-show_0.0.7.min.js" integrity="sha256-eBq0lZtKEakRPQDWq0tVl4t3MrCSXnyqfyHsKGA9EYE=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@expressive-wc/slide-show@0.1.1/dist/slide-show_0.1.1.min.js" integrity="sha256-/RUdW9EeiMi5dTZZleW+ZChkzevIggbFS0oNjeaAWcI=" crossorigin="anonymous"></script>
 ```
 
 ## Usage
