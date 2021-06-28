@@ -14,7 +14,8 @@
     "custom-elements.json",
     "dist/*.js",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "screenshots/*"
   ],
   "scripts": {
     "start": "web-dev-server",
