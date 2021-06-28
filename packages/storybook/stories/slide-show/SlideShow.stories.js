@@ -14,7 +14,7 @@ export default {
   title: 'Components/SlideShow'
 }
 
-const Tempalte = ({ interval }) => html`
+const Template = ({ interval }) => html`
 <slide-show interval="${interval}">
   <img src="${img1}" index="" alt="">
   <img src="${img2}" index="" alt="">
@@ -23,7 +23,7 @@ const Tempalte = ({ interval }) => html`
   <img src="${img5}" index="" alt="">
 </slide-show>
 `
-export const Default = Tempalte.bind({})
+export const Default = Template.bind({})
 Default.args = {
   interval: 3000
 }
