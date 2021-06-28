@@ -205,24 +205,23 @@ export class SlideShow extends LitElement {
   }
 
   _nextIndex(event) {
-    this.activeIndex = mod(this.activeIndex + 1, this.images.length);
+    this.activeIndex = mod(parseInt(this.activeIndex) + 1, this.images.length);
     this._startInterval();
   }
 
   _previousIndex(event) {
-    this.activeIndex = mod(this.activeIndex - 1, this.images.length);
+    this.activeIndex = mod(parseInt(this.activeIndex) + 1, this.images.length);
     this._startInterval();
   }
 
   _setIndex(event) {
-    const index = event.currentTarget.getAttribute('index');
-
-    this.activeIndex = index;
+    this.activeIndex = parseInt(event.currentTarget.getAttribute('index'));;
     this._startInterval();
   }
 
   _startInterval() {
     clearInterval(this._interval);
+    if (this.intervalTime <= 0) { return }
 
     this._interval = setInterval(() => {
       this._nextIndex();
