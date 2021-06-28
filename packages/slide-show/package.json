@@ -20,6 +20,7 @@
     "start": "web-dev-server",
     "dev": "web-dev-server --hrm",
     "build": "rm -rf dist; rollup -c",
+    "prepublishOnly": "npm run build",
     "analyze": "wca analyze --outFile custom-elements.json --format json",
     "lint": "eslint --ext .js,.html . --ignore-path .gitignore && prettier \"**/*.js\" --check --ignore-path .gitignore",
     "format": "eslint --ext .js,.html . --fix --ignore-path .gitignore && prettier \"**/*.js\" --write --ignore-path .gitignore"

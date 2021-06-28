@@ -4,7 +4,7 @@ import minifyHTML from 'rollup-plugin-minify-html-literals';
 import copy from 'rollup-plugin-copy';
 import versionInjector from 'rollup-plugin-version-injector';
 
-import * as packageInfo from './package.json';
+const version = process.env.npm_package_version;
 
 // Static assets will vary depending on the application
 const copyConfig = {
@@ -44,6 +44,6 @@ const config = (plugins, outName) => ({
 // }
 
 export default [
-  config(plugins, `slide-show_${packageInfo.version}.js`),
-  config(minPlugins, `slide-show_${packageInfo.version}.min.js`)
+  config(plugins, `slide-show_${version}.js`),
+  config(minPlugins, `slide-show_${version}.min.js`)
 ];
